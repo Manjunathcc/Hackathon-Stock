@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaniniStock.API", "KaniniStock.API\KaniniStock.API.csproj", "{012E9475-FE38-4EEA-90C2-FB0026B03D23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaniniStock.Domain", "KaniniStock.Domain\KaniniStock.Domain.csproj", "{13517E29-9EF0-4814-A266-B2FEAC350946}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaniniStock.Infrastructure", "KaniniStock.Infrastructure\KaniniStock.Infrastructure.csproj", "{B38F9765-CF92-4152-9EB4-5326CE32542C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaniniStock.Tests", "KaniniStock.Tests\KaniniStock.Tests.csproj", "{40702EF9-382B-47CC-AAC9-901694C50421}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012E9475-FE38-4EEA-90C2-FB0026B03D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012E9475-FE38-4EEA-90C2-FB0026B03D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012E9475-FE38-4EEA-90C2-FB0026B03D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012E9475-FE38-4EEA-90C2-FB0026B03D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13517E29-9EF0-4814-A266-B2FEAC350946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13517E29-9EF0-4814-A266-B2FEAC350946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13517E29-9EF0-4814-A266-B2FEAC350946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13517E29-9EF0-4814-A266-B2FEAC350946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38F9765-CF92-4152-9EB4-5326CE32542C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38F9765-CF92-4152-9EB4-5326CE32542C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38F9765-CF92-4152-9EB4-5326CE32542C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38F9765-CF92-4152-9EB4-5326CE32542C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40702EF9-382B-47CC-AAC9-901694C50421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40702EF9-382B-47CC-AAC9-901694C50421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40702EF9-382B-47CC-AAC9-901694C50421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40702EF9-382B-47CC-AAC9-901694C50421}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AB1BBA8-3200-4BDD-ACA2-9D679E3E44D3}
+	EndGlobalSection
+EndGlobal
